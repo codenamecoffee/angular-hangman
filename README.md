@@ -25,14 +25,7 @@ Este proyecto fue desarrollado como un desafío personal para refactorizar una a
 
 - ✅ Angular CLI
 - ✅ Angular Components
-
-<br>
-
 - ✅ Angular Services (for state and theme)  
-(ES)(Para la gestión de estados y tema visual)
-
-<br>
-
 - ✅ TypeScript
 - ✅ CSS3
 - ✅ JSON word list
@@ -66,6 +59,37 @@ Before running the project locally, make sure to restore all dependencies and st
    ```
 
 The application will be available at [http://localhost:4200](http://localhost:4200) by default.
+
+<br>
+
+## 🌍 Deploying to GitHub Pages
+
+To deploy this Angular project to GitHub Pages:
+
+1. **Build the project for production:**
+   ```
+   ng build --base-href "https://<YOUR_GITHUB_USERNAME>.github.io/<REPO_NAME>/"
+   ```
+   Replace `<YOUR_GITHUB_USERNAME>` and `<REPO_NAME>` with your actual GitHub username and repository name.
+
+2. **Deploy the correct output folder:**
+   If your build output is in `dist/<project-name>/browser`, run:
+   ```
+   npx angular-cli-ghpages --dir=dist/<project-name>/browser
+   ```
+   Make sure to use the actual folder name generated in `dist/`.
+
+3. **Configure GitHub Pages:**
+   - Go to your repository settings on GitHub.
+   - In the "Pages" section, set the source to the `gh-pages` branch and root (`/`).
+
+Your site will be available at:
+```
+https://<YOUR_GITHUB_USERNAME>.github.io/<REPO_NAME>/
+```
+
+**Note:**  
+If you change the repository name, update the `--base-href` and redeploy.
 
 <br>
 

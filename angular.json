@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularHangman": {
+    "angular-hangman": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/AngularHangman",
+            "outputPath": "dist/angular-hangman",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
