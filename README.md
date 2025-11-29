@@ -5,8 +5,8 @@
 
 <br>
 
-* 🛠️ A full rewrite of my earlier [ReduxHangman](https://github.com/codenamecoffee/redux-hangman) project made in React + Redux Toolkit.
-* (ES) Una reescritura completa de mi projecto previo [ReduxHangman](https://github.com/codenamecoffee/redux-hangman) hecho con React + Redux Toolkit.
+* 🛠️ A full rewrite of my earlier [Redux Hangman](https://github.com/codenamecoffee/redux-hangman) project made in React + Redux Toolkit.
+* (ES) Una reescritura completa de mi projecto previo [Redux Hangman](https://github.com/codenamecoffee/redux-hangman) hecho con React + Redux Toolkit.
 
 <br>
 
