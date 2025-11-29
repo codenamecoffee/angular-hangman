@@ -20,6 +20,55 @@ Este proyecto fue desarrollado como un desafío personal para refactorizar una a
 
 <br>
 
+
+## 📦 Tech Stack / Tecnologías
+
+- ✅ Angular CLI
+- ✅ Angular Components
+
+<br>
+
+- ✅ Angular Services (for state and theme)  
+(ES)(Para la gestión de estados y tema visual)
+
+<br>
+
+- ✅ TypeScript
+- ✅ CSS3
+- ✅ JSON word list
+- ✅ GitHub Pages Deployment
+
+<br>
+
+## 📸 Demo
+
+| Feature         | Demo                                  |
+|-----------------|---------------------------------------|
+| **Gameplay**     | ![](./demo1.gif)                      |
+| **Dark Mode**    | ![](./demo2.gif)                      |
+
+<br>
+
+## 🚀 Getting Started
+
+Before running the project locally, make sure to restore all dependencies and start the development server:
+
+1. **Install dependencies:**  
+   Run the following command in your project directory to install all required packages:
+   ```
+   npm install
+   ```
+
+2. **Start the local server:**  
+   Use Angular CLI to launch the app locally:
+   ```
+   ng serve
+   ```
+
+The application will be available at [http://localhost:4200](http://localhost:4200) by default.
+
+<br>
+
 ## 🧩 Features / Características
 
 > 🎨 Light and Dark theme toggle using a global service.  
@@ -54,35 +103,6 @@ Este proyecto fue desarrollado como un desafío personal para refactorizar una a
 
 >🔄 Game restarts on pressing `Enter` or refreshing the page.  
 >(ES) Se puede presionar `Enter` o recargando la página.
-
-<br>
-
-## 📦 Tech Stack / Tecnologías
-
-- ✅ Angular CLI
-- ✅ Angular Components
-
-<br>
-
-- ✅ Angular Services (for state and theme)  
-(ES)(Para la gestión de estados y tema visual)
-
-<br>
-
-- ✅ TypeScript
-- ✅ CSS3
-- ✅ JSON word list
-- ✅ GitHub Pages Deployment
-
-<br>
-
-## 📸 Demo
-
-![Gameplay](./demo1.gif)
-
-<br>
-
-![Dark Mode](./demo2.gif)
 
 <br>
 
